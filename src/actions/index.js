@@ -1,4 +1,6 @@
-const API_KEY = '14a9fdd858e7f446ebd55fe049c90bfb';
+import API from '../../.env'
+
+const API_KEY = API;
 const ROOT_URL = `http://api.openweathermap.org/data/2.5/forecast?appid=${API_KEY}`;
 
 export const FETCH_WEATHER = 'FETCH_WEATHER';
